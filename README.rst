@@ -1,6 +1,8 @@
 Django-bower
 ============
 
+*This is a fork of the original* `django-bower <https://github.com/nvbn/django-bower/>`_ *that seems not to be maintained. It is compatible with Django 4.1.*
+
 .. image:: https://travis-ci.org/nvbn/django-bower.png
    :alt: Build Status
    :target: https://travis-ci.org/nvbn/django-bower
