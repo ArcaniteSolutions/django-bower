@@ -9,7 +9,7 @@ from ..exceptions import BowerNotInstalled
 class BaseBowerCommand(BaseCommand):
     """Base management command with bower support"""
 
-    requires_system_checks = [] if DJANGO_VERSION >= (3, 2) else False
+    requires_system_checks = []
 
     # add fake .options_list for Django>=1.10
     if not hasattr(BaseCommand, 'option_list'):
