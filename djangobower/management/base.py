@@ -1,5 +1,4 @@
 from pprint import pformat
-from django import VERSION as DJANGO_VERSION
 from django.core.management.base import BaseCommand
 from django.conf import settings
 from ..bower import bower_adapter
